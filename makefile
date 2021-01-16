@@ -16,4 +16,4 @@ frequency.o: frequency.c frequency.h
 	gcc -Wall -fPIC -g -c frequency.c
 
 clean: 
-rm -f *.o *.so frequency
+	rm -f *.o *.so frequency
